@@ -1,0 +1,96 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&display=swap');
+
+body {
+  font-family: 'Comfortaa', cursive;
+  text-align: center;
+  background-color: #fff8f0; /* soft cream */
+  color: #333;
+  padding: 20px;
+  margin: 0;
+}
+
+/* Headings */
+h1 {
+  color: #d9647c; /* soft rose color */
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+h2 {
+  color: #ff7f50; /* coral-orange */
+  font-size: 1.5rem;
+  margin: 10px 0 5px 0;
+}
+
+/* Paragraphs */
+p {
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #555;
+}
+
+/* Notes / Policies */
+.note {
+  background-color: #fff0f5; /* very light pink */
+  padding: 10px;
+  border-radius: 8px;
+  margin: 10px auto 20px auto;
+  max-width: 400px;
+  color: #d9647c;
+  font-weight: 500;
+}
+
+/* Service Cards */
+.service {
+  background-color: #ffe6f0; /* soft pink */
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 360px;
+  border-radius: 15px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.service:hover {
+  transform: translateY(-5px);
+}
+
+/* Images in services */
+.service img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+/* Price */
+.price {
+  font-weight: bold;
+  color: #ff4f79; /* brighter pink for emphasis */
+  margin: 10px 0;
+}
+
+/* Buttons */
+.btn {
+  display: inline-block;
+  padding: 14px 26px;
+  background: #d9647c;
+  color: white;
+  text-decoration: none;
+  border-radius: 12px;
+  margin-top: 10px;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+.btn:hover {
+  background: #ff7f9b; /* softer hover color */
+}
+
+/* Calendly embed adjustments */
+.calendly-inline-widget {
+  margin: 20px auto;
+  max-width: 400px;
+  border-radius: 12px;
+  overflow: hidden;
+}
